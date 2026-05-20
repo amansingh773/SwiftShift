@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "description": "SwiftShift Packers & Movers - Professional Relocation Landing Page",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "npx vite build",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "node node_modules/vite/bin/vite.js",
+  "build": "node node_modules/vite/bin/vite.js build",
+  "preview": "node node_modules/vite/bin/vite.js preview"
+},
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
